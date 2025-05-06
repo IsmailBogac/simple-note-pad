@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.note{
+    resize: none;
+    width: 250px;
+    height: 350px;
+    line-height: 24px;
+    border: 2px solid #b3cde0;
+    border-radius: 12px;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        yellow,
+        yellow 23px,
+        #000 24px
+    );
+}
+
+.note:focus{
+    border: none;
+}
+.item{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    background-color: #3f92ce;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.save{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    margin: 5px;
+}
+
